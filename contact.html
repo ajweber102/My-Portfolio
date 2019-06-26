@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap Responsive Portfolio</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <!-- Start Nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <span class="navbar-brand mb-1 h1">My Portfolio</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item nav-">
+                <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="body-main">
+            <div class="card col-md-4">
+                <div class="card-content">
+                    <div>
+                        <h2>
+                            Contact
+                        </h2>
+                            <hr>
+                        <form>
+                            <div class="card-column">
+                                <label for="name">Name</label>
+                                <input type="text" id="fname" name="name" placeholder="Name">
+                            </div>
+                            <div class="card-column">
+                                <label for="email">Email</label>
+                                <input type="text" id="lname" name="email" placeholder="Email">
+                            </div>
+                            <div class="card-column"></div>
+                                <label for="subject">Message</label>
+                                <div>
+                                    <textarea class="col-md-12" id="subject" id="message" name="subject" placeholder="What's your inquiry?" style="height:120px width:120px"></textarea>
+                                </div>
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
